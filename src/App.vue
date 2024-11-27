@@ -3,13 +3,15 @@ import HelloWorld from './view/HelloWorld.vue'
 import TheWelcome from './view/TheWelcome.vue'
 import TestPlugins from './view/TestPlugins.vue'
 import { provide } from 'vue'
+
+import {TBranch2} from './view/TestBranch'
 </script>
 
 <template>
-  在branch1分支上修改
-  在branch2分支上修改
-  222222222222222222
-  <TestPlugins />
+  <main>
+    <TestPlugins />
+    <TBranch2 />
+  </main>
 
   <!-- <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
