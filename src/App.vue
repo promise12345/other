@@ -4,14 +4,14 @@ import TheWelcome from './view/TheWelcome.vue'
 import TestPlugins from './view/TestPlugins.vue'
 import { provide } from 'vue'
 
-import {TBranch2} from './view/TestBranch'
+import {TBranch1, TBranch2} from './view/TestBranch'
 </script>
 
 <template>
   <main>
     <TestPlugins />
-    <TBranch2 />
     <TBranch1 />
+    <TBranch2 />
   </main>
 
   <!-- <header>
