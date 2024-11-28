@@ -11,6 +11,7 @@ import {TBranch2} from './view/TestBranch'
   <main>
     <TestPlugins />
     <TBranch2 />
+    <TBranch1 />
   </main>
 
   <!-- <header>
